@@ -175,6 +175,26 @@ img {
   margin-top: 2.5rem;
 }
 
+.skills-section {
+  margin-top: 2rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  font-weight: 700;
+}
+
 .intro-card,
 .card,
 .contact-card,

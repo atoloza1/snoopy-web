@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - Contacto</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="brand">Mi Portafolio</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="proyect.html">Proyectos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="snoopy.html">Snoopy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <section class="page-header">
+      <h1>Contacto</h1>
+      <p>Estoy disponible para nuevos proyectos y colaboraciones. Completa el formulario o usa los datos de contacto directo.</p>
+    </section>
+
+    <section class="contact-grid">
+      <div class="contact-card">
+        <h2>Escríbeme</h2>
+        <p>Respondo con rapidez y con interés en ideas frescas y proyectos bien definidos.</p>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          <p id="contact-response" class="form-response"></p>
+        </form>
+      </div>
+
+      <aside class="contact-aside">
+        <img src="assets/img/profile.png" alt="Contacto de portafolio" />
+        <div class="info-block">
+          <h2>Información</h2>
+          <p><strong>Email:</strong> hola@miportafolio.com</p>
+          <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+          <p><strong>Ubicación:</strong> Santiago, Chile</p>
+        </div>
+        <div class="info-block">
+          <h2>Sígueme</h2>
+          <p>Twitter, LinkedIn y Behance para proyectos e inspiración.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Mi Portafolio. Contacto.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Inicio</a>
+        <a href="contact.html">Contacto</a>
+        <a href="proyect.html">Proyectos</a>
+        <a href="blog.html">Blog</a>
+        <a href="snoopy.html">Snoopy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
